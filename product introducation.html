@@ -1,0 +1,155 @@
+<html>
+
+<head>
+   <title>Break&Fast Introducation</title>
+   <meta charset="UTF-8">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="product.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <script>
+    function myTime(){
+    	var time=new Date();
+    	alert("Welcome to Break&Fast!\n \nNow is "+time.getHours()+":"+time.getMinutes()+":"+time.getSeconds()+"\n \nCome to have a taste!");
+    }
+    window.addEventListener("load",myTime,false)
+    </script>
+</head>
+
+<body style="background-color:#fafafa;">
+   
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+         <li><a class="navbar-brand" href="#"><strong>Break&Fast</strong></a></li>
+      </div>
+      <ul class="nav navbar-nav">
+         <li><a href="#">Home</a></li>
+         <li><a href="#main">拌粉</a></li>
+         <li><a href="#">炒粉</a></li>
+         <li><a href="#">瓦罐汤</a></li> 
+         <li><a href="#">油条</a></li> 
+         <li><a href="#">麻圆</a></li>  
+         <li><a href="#">豆浆</a></li>
+      </ul>
+    </div>
+    </nav>
+
+   
+    <div id="main">
+        <div class="bigheading">
+            <p><font face='FZXH'>拌粉</font>
+            <font face='FZCXHJW'>  &nbsp|&nbsp  Chinese Mixed Rice Noodles</font></p>
+        </div>
+        <div class="medheading">
+            <p><font face='FZCXHJW'>Super.Noodles.</font></p>
+            <p><font face='FZCXHJW'>Now. in. Rice.</font></p>
+        </div>
+        <div class="link">
+            <p><font face='FZCXHJW'><a href="#detail1">Learn more ></a>
+                &nbsp <a href="#purchase"> Buy ></a></font></p>
+        </div>
+
+        <div id="pic">
+            <img src="拌粉俯拍.jpg">
+        </div>
+    </div>
+
+    <div id="detail1">
+    <div class="media">
+        <div class="media-left">
+           <img src="拌粉美拍.jpg" class="media-object" style="width:400px;margin-right:100px;">
+        </div>
+        <div class="media-body">
+           <div class="bigheading">
+               <p><font face='FZXH'>拌粉</font> &nbsp|&nbsp 
+                  <font face='FZCXHJW'>Nutrient composition</font></p>
+           </div>
+           <div class="dl">
+                  <font face='FZXH'>
+                  <p>热量<br>336kcal/100g</p>
+                  <p>蛋白质<br>7.6g/100g</p>
+                  <p>碳水化合物<br>74.7/100g</p>
+                  <p>脂肪<br>0.7g/100g</p>
+                  </font>
+           </div>
+        </div>
+     </div>
+
+    <div id="detail2">
+    <div class="media">
+        <div class="media-body">
+           <div class="bigheading">
+               <p><font face='FZCXH'>拌粉</font> &nbsp|&nbsp 
+               <font face='FZCXHJW'>Flagship Configuration</font></p>
+           </div>
+           <div class="dl">
+                  <font face='FZXH'>
+                  <p>韧性米粉</p>
+                  <p>雪里蕻菜沫</p>
+                  <p>油炸花生米</p>
+                  <p>咸萝卜干</p>
+                  <p>特质辣酱</p>
+                  <p>精致香油</p>
+                  </font>
+           </div>
+        </div>
+        <div class="media-right">
+           <img src="拌粉.jpg" class="media-object" style="width:600px;">
+        </div>
+     </div>
+     </div>
+      
+    <div id="purchase">
+    <div class="media">
+        <div class="media-left">
+           <img src="拌粉俯拍.jpg" class="media-object" style="width:400px;margin-right:100px;">
+        </div>
+        <div class="media-body">
+            <div class="bigheading">
+               <p><font face='FZXH'>精选原料 | 美味无须等待</font></p>
+            </div>
+            <div id="buy">
+               <div style="font-size: 20px;">
+                  <font face='FZCXHJW'>Get free delivery on any order more than 2 items</font>
+               </div>
+               <P class="price">NT$15/small &nbsp|&nbsp NT$20/big &nbsp|&nbsp NT$25/bigger</P>
+               <form>
+               <div class="choice">
+                  <p>Hotter or not?</p>
+                  <label class="checkbox-inline"><input type="checkbox" value="">微辣</label>
+                  <label class="checkbox-inline"><input type="checkbox" value="">中辣</label>
+                  <label class="checkbox-inline"><input type="checkbox" value="">大辣</label>
+               </div>
+               <div class="choice">
+                  <p>Bigger or not?</p>
+                  <label class="checkbox-inline"><input type="checkbox" value="">小碗</label>
+                  <label class="checkbox-inline"><input type="checkbox" value="">大碗</label>
+                  <label class="checkbox-inline"><input type="checkbox" value="">超大碗</label>
+               </div>
+               <div class="choice">
+                  <p>More or not?</p>
+                  <label class="checkbox-inline"><input type="checkbox" value="">1</label>
+                  <label class="checkbox-inline"><input type="checkbox" value="">2</label>
+                  <label class="checkbox-inline"><input type="checkbox" value="" disabled>3</label>
+                  <label class="checkbox-inline"><input type="checkbox" value="">4</label>
+                  <label class="checkbox-inline"><input type="checkbox" value="">5</label>
+                  <label class="checkbox-inline"><input type="checkbox" value="">6</label>
+               </div>
+               <div class="choice">
+                   <button type="button" class="btn btn primary btn-sm btn-block">Pay for it</button>
+               </div>
+               </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    
+</body>
+</html>
